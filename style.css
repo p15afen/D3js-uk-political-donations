@@ -8,6 +8,13 @@ p {
 strong {
     font-weight: 700;
 }
+.zoom{
+    -webkit-transition: font-size .4s;
+    transition: font-size .4s;
+}
+.zoom:hover{
+    font-size : 1.8em;
+}
 h1, h2, h3, h4, h5 {
     margin: 10px 0 15px 0;
 }
